@@ -22,6 +22,7 @@ const handler = (request, response) => {
        }
     }*/
         console.log(os.cpus()[1].model);
+        //Comentario nuevo
     
     
   //  response.end(supervillains.random());
