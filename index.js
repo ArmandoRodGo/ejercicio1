@@ -25,7 +25,7 @@ const handler = (request, response) => {
         //Comentario nuevo
 
         //*****  ***** */
-    
+        console.log(os.cpus()[1].type);
     
   //  response.end(supervillains.random());
     response.end(`<h1>${os.cpus()[0].model}</h1>`);
